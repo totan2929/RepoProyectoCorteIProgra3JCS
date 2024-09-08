@@ -2,7 +2,7 @@ package org.ciaf;
 
 import java.util.Scanner;
 
-public class FinalGradeCalculation /*Calculo de notas Finales*/{
+public class AdvancedFinalGradeCalculation /*Calculo de notas Finales*/{
     /*Contexto: Un sistema escolar necesita calcular la nota final de un grupo de
     estudiantes basada en tres notas parciales. Se requiere tambien determinar
     cuantos estudiantes aprobaron y cuantos reprobaron.

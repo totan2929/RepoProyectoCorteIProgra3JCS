@@ -26,11 +26,8 @@ public class ArmstrongNumber /*Numero Armstrong*/{
         int i = digits.length - 1;
         while (number1 >= 1){
             num= number1%10;
-            System.out.println(num);
             num = (int)Math.pow(num,totalDigits);
-            System.out.println(num);
             armstrong = armstrong + num;
-            System.out.println(armstrong);
             num = 0;
             number1 = number1/10;
             i--;
